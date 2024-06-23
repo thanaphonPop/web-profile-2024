@@ -10,6 +10,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
+    <main className="container bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 min-h-screen max-w-none p-24">
     <div className="container mx-auto pt-4">
       <div className="flex gap-4 justify-end pb-4">
         <div>
@@ -41,5 +42,6 @@ export default function Home() {
         </div>
       </div>
     </div>
+    </main>
   );
 }
