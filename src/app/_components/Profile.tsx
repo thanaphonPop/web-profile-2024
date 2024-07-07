@@ -17,10 +17,9 @@ const Profile = (props: Props) => {
       </div>
       <div className="text-center">
         <h1 className="text-2xl font-bold">Thanaphon Maneerat</h1>
-        <p className="text-base">Software Engineer</p>
+        <p className="text-base">Student from Computer Engineering and Artificial Intelligence</p>
       </div>
 
-      <div className="py-10 text-center ">"If you want to run,You will have to use your legs"</div>
       <div className="p-6 mx-1 xl:mx-6 bg-blue-300 rounded-md">
         <p>
           <b>Age:</b> 22
@@ -29,7 +28,14 @@ const Profile = (props: Props) => {
           <b>Status:</b> Single
         </p>
         <p>
-          <b>Location:</b> Chiang Rai
+          <b>Location:</b> Songkhla
+        </p>
+        <p>
+          <b>Email:</b>
+        </p>
+        <p className="truncate ...">thanaphon.ma@mail.wu.ac.th</p>
+        <p>
+          <b>Phon number:</b> 099-301-7117
         </p>
       </div>
     </div>

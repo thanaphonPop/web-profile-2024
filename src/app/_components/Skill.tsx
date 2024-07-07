@@ -5,8 +5,11 @@ import {
   faPhp,
   faPython,
   faReact,
-  faRust,
+  faNodeJs,
   faVuejs,
+  faHtml5,
+  faGithub,
+  faCss3,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Card from "./common/Card";
@@ -36,6 +39,22 @@ const Skill = (props: Props) => {
         <div className="text-center">
           <FontAwesomeIcon icon={faJs} className="h-10" />
           <p>JS</p>
+        </div>
+        <div className="text-center">
+          <FontAwesomeIcon icon={faNodeJs} className="h-10" />
+          <p>Node.js</p>
+        </div>
+        <div className="text-center">
+          <FontAwesomeIcon icon={faHtml5} className="h-10" />
+          <p>HTML5</p>
+        </div>
+        <div className="text-center">
+          <FontAwesomeIcon icon={faCss3} className="h-10" />
+          <p>CSS</p>
+        </div>
+        <div className="text-center">
+          <FontAwesomeIcon icon={faGithub} className="h-10" />
+          <p>Github</p>
         </div>
       </div>
     </Card>
