@@ -12,8 +12,9 @@ const Project = (props: Props) => {
               <li>Artificial Intelligence-driven Interactive Tool for Identifying White 
               Blood Cells Types in Hawk Blood in Animal Parasitology Laboratory</li>
               <li>Make Rasume Web Application with Next.js</li>
+              <li>Make Job applicants Dashboard and Entrepreneur Dashboard</li>
+              <li>Creating a hotel job search page</li>
             </ul>
-            
       </div>
     </Card>
   );
