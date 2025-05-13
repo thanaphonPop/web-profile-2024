@@ -25,16 +25,8 @@ const Skill = (props: Props) => {
           <p>PHP</p>
         </div>
         <div className="text-center">
-          <FontAwesomeIcon icon={faPython} className="h-10" />
-          <p>Python</p>
-        </div>
-        <div className="text-center">
           <FontAwesomeIcon icon={faReact} className="h-10" />
           <p>React</p>
-        </div>
-        <div className="text-center">
-          <FontAwesomeIcon icon={faJava} className="h-10" />
-          <p>Java</p>
         </div>
         <div className="text-center">
           <FontAwesomeIcon icon={faJs} className="h-10" />
