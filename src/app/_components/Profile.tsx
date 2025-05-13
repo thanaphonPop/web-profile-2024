@@ -22,7 +22,7 @@ const Profile = (props: Props) => {
 
       <div className="p-6 mx-1 xl:mx-6 bg-blue-300 rounded-md">
         <p>
-          <b>Age:</b> 22
+          <b>Age:</b> 23
         </p>
         <p>
           <b>Status:</b> Single
@@ -33,7 +33,7 @@ const Profile = (props: Props) => {
         <p>
           <b>Email:</b>
         </p>
-        <p className="truncate ...">thanaphon.ma@mail.wu.ac.th</p>
+        <p className="truncate ...">thanaphon.maneerat@gmail.com</p>
         <p>
           <b>Phon number:</b> 099-301-7117
         </p>
