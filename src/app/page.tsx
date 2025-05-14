@@ -10,24 +10,22 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="container bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 min-h-screen max-w-none p-24">
+    <main className="container min-h-screen max-w-none p-24 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/orange_backgorund.jpg')" }}>
     <div className="container mx-auto pt-4">
       <div className="flex gap-4 justify-end pb-4">
       </div>
       <div className="grid grid-flow-col grid-cols-8 gap-4">
-        <div className="col-span-2">
-          <Profile />
-        </div>
-        <div className="grid col-span-6 grid-cols-3 xl:grid-cols-6 gap-4">
-          <div className="grid col-span-3 gap-4">
+        <div className="grid col-span-8 grid-cols-3 xl:grid-cols-6 gap-6">
+          <div className="grid col-span-8 gap-6">
+            <Profile />
             <Bio />
             <Personality />
-            <Goals />
+            <Project />
           </div>
-          <div className="grid col-span-3 gap-4">
+          <div className="grid col-span-8 gap-6">
             <Skill />
             <Education />
-            <Project />
+            <Goals />
           </div>
         </div>
       </div>

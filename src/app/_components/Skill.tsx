@@ -1,18 +1,16 @@
 import {
-  faDocker,
-  faJava,
   faJs,
   faPhp,
-  faPython,
   faReact,
   faNodeJs,
-  faVuejs,
   faHtml5,
   faGithub,
   faCss3,
+  faInternetExplorer,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Card from "./common/Card";
+import Image from 'next/image';
 
 type Props = {};
 
@@ -23,6 +21,16 @@ const Skill = (props: Props) => {
         <div className="text-center">
           <FontAwesomeIcon icon={faPhp} className="h-10" />
           <p>PHP</p>
+        </div>
+        <div className="text-center">
+          <Image
+            src="/favicon.ico" // Place this file in your `public` folder
+            alt="Next.js"
+            width={40}
+            height={40}
+            className="mx-auto"
+          />
+          <p>Next.js</p>
         </div>
         <div className="text-center">
           <FontAwesomeIcon icon={faReact} className="h-10" />
