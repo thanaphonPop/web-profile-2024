@@ -10,7 +10,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="container min-h-screen max-w-none p-24 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/orange_backgorund.jpg')" }}>
+    <main className="container min-h-screen max-w-none p-24 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/Backgorund.jpg')" }}>
     <div className="container mx-auto pt-4">
       <div className="flex gap-4 justify-end pb-4">
       </div>
